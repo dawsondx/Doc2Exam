@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">AI 出题精灵 · 朱印（单色）</title>
+  <desc id="logo-desc">单色镂空版本，适合印刷、钢印与单色场景。</desc>
+  <defs>
+    <mask id="seal-cut">
+      <rect width="100" height="100" fill="black"/>
+      <rect x="16" y="16" width="68" height="68" rx="14" fill="white"/>
+      <path d="M34 34H52" fill="none" stroke="black" stroke-width="3.6" stroke-linecap="round"/>
+      <path d="M34 55 45.5 66 67.5 40.5" fill="none" stroke="black" stroke-width="7.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <rect x="16" y="16" width="68" height="68" rx="14" fill="currentColor" mask="url(#seal-cut)"/>
+</svg>

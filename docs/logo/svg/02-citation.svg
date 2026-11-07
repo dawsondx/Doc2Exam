@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">AI 出题精灵 · 引文</title>
+  <desc id="logo-desc">两道引文角标夹住一个墨点：被摘出的原文，与落定的答案。</desc>
+  <style>
+    .ink { fill: var(--logo-ink, #1B1711); }
+    .accent { fill: var(--logo-accent, #A63D2F); }
+    .cut { fill: var(--logo-cut, #F3EEE3); }
+    .surface { fill: var(--logo-surface, #F3EEE3); }
+    .ink-line { fill: none; stroke: var(--logo-ink, #1B1711); stroke-linecap: round; stroke-linejoin: round; }
+    .accent-line { fill: none; stroke: var(--logo-accent, #A63D2F); stroke-linecap: round; stroke-linejoin: round; }
+    .cut-line { fill: none; stroke: var(--logo-cut, #F3EEE3); stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <g>
+    <path d="M30 52V28H54" class="accent-line" stroke-width="6.5"/>
+    <path d="M70 48V72H46" class="accent-line" stroke-width="6.5"/>
+    <circle cx="50" cy="50" r="5.5" class="ink"/>
+  </g>
+</svg>

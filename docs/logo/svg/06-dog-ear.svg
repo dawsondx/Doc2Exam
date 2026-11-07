@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">AI 出题精灵 · 折角</title>
+  <desc id="logo-desc">一页折角，一道朱批。像审稿人留在页边的记号。</desc>
+  <style>
+    .ink { fill: var(--logo-ink, #1B1711); }
+    .accent { fill: var(--logo-accent, #A63D2F); }
+    .cut { fill: var(--logo-cut, #F3EEE3); }
+    .surface { fill: var(--logo-surface, #F3EEE3); }
+    .ink-line { fill: none; stroke: var(--logo-ink, #1B1711); stroke-linecap: round; stroke-linejoin: round; }
+    .accent-line { fill: none; stroke: var(--logo-accent, #A63D2F); stroke-linecap: round; stroke-linejoin: round; }
+    .cut-line { fill: none; stroke: var(--logo-cut, #F3EEE3); stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <g>
+    <path d="M31 17H56L72 33V80A3 3 0 0 1 69 83H31A3 3 0 0 1 28 80V20A3 3 0 0 1 31 17Z" class="surface" stroke="var(--logo-ink, #1B1711)" stroke-width="3.2" stroke-linejoin="round"/>
+    <path d="M56 17 72 33H56Z" class="accent"/>
+    <path d="M56 33H72" fill="none" stroke="var(--logo-ink, #1B1711)" stroke-width="1.6" opacity=".45"/>
+    <path d="M36 49H64M36 59H58" class="ink-line" stroke-width="2.6" opacity=".42"/>
+    <path d="M36 69H49" class="accent-line" stroke-width="3.2"/>
+  </g>
+</svg>

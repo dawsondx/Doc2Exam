@@ -1,15 +1,18 @@
 import { useEffect, useRef } from "react";
+import brandSeal from "../assets/brand-ti-seal.svg";
 import { isDemoMode, isPublicMode } from "../demo/mode";
 import { STEPS, useWorkflow } from "../store";
 import { Icon } from "./ui/icons";
 
 function BrandMark() {
   return (
-    <span aria-hidden="true" className="stamp size-10 shrink-0">
-      <span className="font-[family-name:var(--font-display)] text-[17px] font-semibold leading-none text-[var(--color-accent)]">
-        题
-      </span>
-    </span>
+    <img
+      src={brandSeal}
+      alt=""
+      width={40}
+      height={40}
+      className="size-10 shrink-0"
+    />
   );
 }
 

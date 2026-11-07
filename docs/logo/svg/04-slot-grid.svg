@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">AI 出题精灵 · 槽位</title>
+  <desc id="logo-desc">八格待选题位，中心一格已复核：结构固定，答案由程序落位。</desc>
+  <style>
+    .ink { fill: var(--logo-ink, #1B1711); }
+    .accent { fill: var(--logo-accent, #A63D2F); }
+    .cut { fill: var(--logo-cut, #F3EEE3); }
+    .surface { fill: var(--logo-surface, #F3EEE3); }
+    .ink-line { fill: none; stroke: var(--logo-ink, #1B1711); stroke-linecap: round; stroke-linejoin: round; }
+    .accent-line { fill: none; stroke: var(--logo-accent, #A63D2F); stroke-linecap: round; stroke-linejoin: round; }
+    .cut-line { fill: none; stroke: var(--logo-cut, #F3EEE3); stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <g>
+    <rect x="21" y="21" width="14" height="14" rx="3.5" fill="none" stroke="var(--logo-ink, #1B1711)" stroke-width="2.2" opacity=".26"/>
+    <rect x="43" y="21" width="14" height="14" rx="3.5" fill="none" stroke="var(--logo-ink, #1B1711)" stroke-width="2.2" opacity=".26"/>
+    <rect x="65" y="21" width="14" height="14" rx="3.5" fill="none" stroke="var(--logo-ink, #1B1711)" stroke-width="2.2" opacity=".26"/>
+    <rect x="21" y="43" width="14" height="14" rx="3.5" fill="none" stroke="var(--logo-ink, #1B1711)" stroke-width="2.2" opacity=".26"/>
+    <rect x="65" y="43" width="14" height="14" rx="3.5" fill="none" stroke="var(--logo-ink, #1B1711)" stroke-width="2.2" opacity=".26"/>
+    <rect x="21" y="65" width="14" height="14" rx="3.5" fill="none" stroke="var(--logo-ink, #1B1711)" stroke-width="2.2" opacity=".26"/>
+    <rect x="43" y="65" width="14" height="14" rx="3.5" fill="none" stroke="var(--logo-ink, #1B1711)" stroke-width="2.2" opacity=".26"/>
+    <rect x="65" y="65" width="14" height="14" rx="3.5" fill="none" stroke="var(--logo-ink, #1B1711)" stroke-width="2.2" opacity=".26"/>
+    <rect x="43" y="43" width="14" height="14" rx="3.5" class="accent"/>
+    <path d="M46.5 50 49.5 53 54 46.5" class="cut-line" stroke-width="2.4"/>
+  </g>
+</svg>

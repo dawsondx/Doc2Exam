@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">AI 出题精灵 · 双卷</title>
+  <desc id="logo-desc">题目版与答案版两页相叠，共用同一枚朱砂勾。</desc>
+  <style>
+    .ink { fill: var(--logo-ink, #1B1711); }
+    .accent { fill: var(--logo-accent, #A63D2F); }
+    .cut { fill: var(--logo-cut, #F3EEE3); }
+    .surface { fill: var(--logo-surface, #F3EEE3); }
+    .ink-line { fill: none; stroke: var(--logo-ink, #1B1711); stroke-linecap: round; stroke-linejoin: round; }
+    .accent-line { fill: none; stroke: var(--logo-accent, #A63D2F); stroke-linecap: round; stroke-linejoin: round; }
+    .cut-line { fill: none; stroke: var(--logo-cut, #F3EEE3); stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <g>
+    <rect x="31" y="17" width="44" height="58" rx="4" class="accent"/>
+    <rect x="24" y="24" width="44" height="58" rx="4" class="surface" stroke="var(--logo-ink, #1B1711)" stroke-width="2.8"/>
+    <path d="M35 54 44 63 58 46" class="accent-line" stroke-width="6"/>
+  </g>
+</svg>

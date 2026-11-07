@@ -1,3 +1,5 @@
+<img src="docs/logo/png/07-ti-seal-512.png" alt="AI 出题精灵 · 题印" width="64" />
+
 # AI 出题精灵 · Doc2Exam
 
 > 把文字版 PDF / DOCX 制度文档，转换为**可追溯、可复核**的单选题、判断题与填空题，并一次导出题目版与答案版两套 Word 文档。

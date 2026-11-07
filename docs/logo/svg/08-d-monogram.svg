@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">Doc2Exam · D</title>
+  <desc id="logo-desc">以纸张与翻页构成 D，中心一点朱砂，作为 Doc2Exam 的拉丁字符号。</desc>
+  <style>
+    .ink { fill: var(--logo-ink, #1B1711); }
+    .accent { fill: var(--logo-accent, #A63D2F); }
+    .cut { fill: var(--logo-cut, #F3EEE3); }
+    .surface { fill: var(--logo-surface, #F3EEE3); }
+    .ink-line { fill: none; stroke: var(--logo-ink, #1B1711); stroke-linecap: round; stroke-linejoin: round; }
+    .accent-line { fill: none; stroke: var(--logo-accent, #A63D2F); stroke-linecap: round; stroke-linejoin: round; }
+    .cut-line { fill: none; stroke: var(--logo-cut, #F3EEE3); stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <g>
+    <path fill-rule="evenodd" d="M33 18H50A32 32 0 0 1 50 82H33A3 3 0 0 1 30 79V21A3 3 0 0 1 33 18ZM45 30H52A20 20 0 0 0 52 70H45A2 2 0 0 1 43 68V32A2 2 0 0 1 45 30Z" class="ink"/>
+    <circle cx="55" cy="50" r="4.5" class="accent"/>
+  </g>
+</svg>
