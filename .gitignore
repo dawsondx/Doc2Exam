@@ -42,3 +42,4 @@ frontend/e2e-data/
 !.env.publicmock
 .DS_Store
 Thumbs.db
+.qoder-credits/
