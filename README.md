@@ -45,6 +45,15 @@ powershell -ExecutionPolicy Bypass -File scripts\start.ps1
 
 所有用户数据(上传文件、解析结果、题目、导出 Word)只写入项目内 `data\` 目录;删除文档或试卷必须经界面二次确认。
 
+## 公开 BYOK 站点(GitHub Pages)
+
+公开版是纯静态站点:PDF/DOCX 在浏览器内解析,API Key 只保存在浏览器,AI 请求由浏览器直连所选服务商,不需要后端。
+
+- 构建:`cd frontend; npm run build:site`(输出到 `site-dist/`)
+- 自动发布:推送到 `main` 后由 `.github/workflows/deploy-pages.yml` 构建并发布到 `gh-pages` 分支
+- GitHub Pages:Source 选择 `gh-pages` / root,Custom domain 填 `doc2exam.dawsondx.top`,证书就绪后启用 Enforce HTTPS
+- DNS:在域名 DNS 服务商添加 `CNAME doc2exam -> dawsondx.github.io`(Cloudflare 需先设为 DNS only)
+
 ## 开发
 
 ```powershell
