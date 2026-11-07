@@ -1,0 +1,34 @@
+# ============================================================
+# 仓库内换行符规则(Windows 优先项目)
+# ============================================================
+
+# 1) 通用:文本文件在仓库中统一存 LF,检出时按平台转换。
+* text=auto
+
+# 2) 批处理文件必须使用 CRLF。
+#    cmd.exe 读取 .bat 时按 CRLF(2 字节)计算下一行的字节偏移;若文件是
+#    LF-only,cmd 会把读取位置落到行中间,于是把行内剩余的中文当作命令执行,
+#    报出 "'xxx' is not recognized as an internal or external command"。
+#    这正是 start.bat 无法正常启动的直接原因。
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 3) PowerShell 脚本同样固定 CRLF,避免 Windows PowerShell 5.1 的解析差异。
+*.ps1 text eol=crlf
+
+# 4) 二进制文件:禁止任何换行符转换,否则文件会损坏。
+*.docx binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.zip binary
+*.exe binary
+*.dll binary
+*.db binary
+*.doc binary

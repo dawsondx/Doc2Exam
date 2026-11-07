@@ -1,0 +1,7 @@
+{
+  "description": "题目版不得泄漏答案侧字段的唯一哨兵",
+  "answer_sentinel": "SENTINEL-ANSWER-9F3A",
+  "explanation_sentinel": "SENTINEL-EXPLAIN-4C2B",
+  "locator_sentinel": "SENTINEL-LOCATOR-7D1E",
+  "source_sentinel": "SENTINEL-SOURCE-8A5C"
+}

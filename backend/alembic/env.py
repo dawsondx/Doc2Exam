@@ -1,0 +1,66 @@
+"""Alembic 环境:导入全部模型的 Base 元数据(规格 5.1)。"""
+
+from __future__ import annotations
+
+import os
+import sys
+from logging.config import fileConfig
+from pathlib import Path
+
+from sqlalchemy import engine_from_config, pool
+
+from alembic import context
+
+# 保证 backend 包可导入
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from app.db.engine import get_engine  # noqa: E402
+from app.models import Base  # noqa: E402
+
+config = context.config
+if config.config_file_name is not None:
+    fileConfig(config.config_file_name)
+
+target_metadata = Base.metadata
+
+
+def run_migrations_offline() -> None:
+    context.configure(
+        url=config.get_main_option("sqlalchemy.url"),
+        target_metadata=target_metadata,
+        literal_binds=True,
+        dialect_opts={"paramstyle": "named"},
+        render_as_batch=True,
+    )
+    with context.begin_transaction():
+        context.run_migrations()
+
+
+def run_migrations_online() -> None:
+    connectable = engine_from_config(
+        config.get_section(config.config_ini_section, {}),
+        prefix="sqlalchemy.",
+        poolclass=pool.NullPool,
+    )
+    # 运行时数据目录可能被环境变量覆盖;迁移优先使用应用实际引擎
+    override = os.environ.get("AI_QUIZ_DATA_DIR")
+    if override:
+        connectable = get_engine()
+    try:
+        with connectable.connect() as connection:
+            context.configure(
+                connection=connection,
+                target_metadata=target_metadata,
+                render_as_batch=True,
+            )
+            with context.begin_transaction():
+                context.run_migrations()
+    finally:
+        if not override:
+            connectable.dispose()
+
+
+if context.is_offline_mode():
+    run_migrations_offline()
+else:
+    run_migrations_online()

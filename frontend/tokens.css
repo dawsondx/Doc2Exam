@@ -1,0 +1,76 @@
+/* Hallmark · genre: editorial · macrostructure: Narrative Workflow · theme: Paper Atelier (Editorial Ivory)
+ * audience: 机场培训/业务人员 · use: 上传制度文档→复核→导出双版本 Word · tone: editorial/quiet
+ * axes: warm paper / serif display / vermilion accent + fine rules
+ * fonts: Noto Serif SC / Sitka (display) + Noto Sans SC (body) + IBM Plex Mono (outlier)
+ */
+
+:root {
+  /* Paper Atelier — warm ivory paper, ink, vermilion, fine hairlines */
+  --color-paper: #f3eee3;
+  --color-paper-2: #faf7f0;
+  --color-paper-3: #ece4d6;
+  --color-paper-hi: #fffdf8;
+  --color-rule: #d9d0c0;
+  --color-rule-strong: #b9ad99;
+  --color-neutral: #3d372d;
+  --color-muted: #6f6657;
+  --color-ink: #1b1711;
+  --color-accent: #a63d2f;
+  --color-accent-ink: #fff8ee;
+  --color-accent-2: #2f5a4e;
+  --color-accent-soft: #f0e3d8;
+  --color-focus: #a63d2f;
+  --color-success: #3f6346;
+  --color-warning: #8a5f16;
+  --color-danger: #9c3529;
+
+  --font-display: "Sitka Display", "Sitka", "Noto Serif SC", "Songti SC", Georgia, serif;
+  --font-body: "Noto Sans SC", "HarmonyOS Sans SC", "PingFang SC", ui-sans-serif, sans-serif;
+  --font-outlier: "IBM Plex Mono", "Consolas", ui-monospace, monospace;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.375rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: 2.25rem;
+  --text-display: clamp(2.25rem, 4vw + 1rem, 3.5rem);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-paper: cubic-bezier(0.22, 0.61, 0.36, 1);
+
+  --dur-micro: 120ms;
+  --dur-short: 200ms;
+  --dur-med: 260ms;
+  --dur-long: 380ms;
+
+  --radius-sm: 2px;
+  --radius-md: 3px;
+  --radius-lg: 4px;
+  --radius-xl: 6px;
+  --radius-pill: 999px;
+
+  --shadow-panel:
+    inset 0 1px 0 rgb(255 253 248 / 0.55),
+    0 16px 40px -38px rgb(27 23 17 / 0.55);
+  --shadow-lift:
+    inset 0 1px 0 rgb(255 253 248 / 0.7),
+    0 26px 54px -40px rgb(27 23 17 / 0.55);
+  --shadow-accent:
+    0 0 0 1px rgb(166 61 47 / 0.25),
+    0 14px 32px -26px rgb(166 61 47 / 0.4);
+  --gradient-accent: linear-gradient(180deg, #ad4434, #9c3528);
+  --gradient-surface: linear-gradient(180deg, rgb(255 253 248 / 0.36), rgb(255 253 248 / 0) 44%);
+}

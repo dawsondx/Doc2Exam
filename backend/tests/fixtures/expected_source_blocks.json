@@ -1,0 +1,354 @@
+{
+  "policy_text.pdf": {
+    "page_count": 5,
+    "blocks": [
+      {
+        "locator_kind": "pdf_page",
+        "locator_label": "第 1 页",
+        "page_number": 1,
+        "heading_path": null,
+        "text_sha256": "928d5ee62fbb19f0371a8ed7cb5bb7895efaddda371e9bf09d8404e162abf306",
+        "text_head": "第一章 总则 第一条 为规范机场突发事件应急处置工作,依据国家相关法律法规,结合本 场运行实际,",
+        "estimated_tokens": 122
+      },
+      {
+        "locator_kind": "pdf_page",
+        "locator_label": "第 2 页",
+        "page_number": 2,
+        "heading_path": null,
+        "text_sha256": "893c45cfa1179c70e614eb4f4557dbaed5d50cdf4d4b1d0aa61193527f1719e7",
+        "text_head": "第二章 组织机构与职责 第四条 机场成立应急指挥部,总指挥由机场总经理担任,副总指挥由分管安 全",
+        "estimated_tokens": 175
+      },
+      {
+        "locator_kind": "pdf_page",
+        "locator_label": "第 3 页",
+        "page_number": 3,
+        "heading_path": null,
+        "text_sha256": "05812d7c3d70e59c1af83d859d7837c480497ac18dc0b74eeca151f18141f5fa",
+        "text_head": "第三章 信息报告流程 第八条 突发事件发生后,事发单位应在15分钟内向机场运行指挥中心电话 报告",
+        "estimated_tokens": 172
+      },
+      {
+        "locator_kind": "pdf_page",
+        "locator_label": "第 4 页",
+        "page_number": 4,
+        "heading_path": null,
+        "text_sha256": "118f8a904626ba9c5656a8aa34f1f0dc4385ab79ae069c9d16d17974bf9813d0",
+        "text_head": "第四章 应急响应分级 第十二条 机场应急响应分为一级、二级、三级三个等级,一级为最高响应等 级。",
+        "estimated_tokens": 128
+      },
+      {
+        "locator_kind": "pdf_page",
+        "locator_label": "第 5 页",
+        "page_number": 5,
+        "heading_path": null,
+        "text_sha256": "8fa12374ec9039acb72b74a4061605039b19e91ab1495a0a75b1115c03ef5adc",
+        "text_head": "第五章 后期处置 第十五条 应急处置结束后,事发单位应在24小时内提交处置总结报告。 第十六条 ",
+        "estimated_tokens": 112
+      }
+    ]
+  },
+  "policy_text.docx": {
+    "page_count": null,
+    "blocks": [
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第一章 总则",
+        "page_number": null,
+        "heading_path": [
+          "第一章 总则"
+        ],
+        "text_sha256": "76c6f9facd16a33d360b9a017670b6b5559d1694b2d0ae346363176b5719af21",
+        "text_head": "第一章 总则",
+        "estimated_tokens": 6
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第一章 总则 > 段落 2",
+        "page_number": null,
+        "heading_path": [
+          "第一章 总则"
+        ],
+        "text_sha256": "aa4c1a1fe9fd3d7882131c03232949103edcc59a21ee2e24c8617e9492e786b0",
+        "text_head": "第一条 为规范机场突发事件应急处置工作,依据国家相关法律法规,结合本场运行实际,制定本预案。",
+        "estimated_tokens": 43
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第一章 总则 > 段落 3",
+        "page_number": null,
+        "heading_path": [
+          "第一章 总则"
+        ],
+        "text_sha256": "2e4084c3610204c9b0f8ace0cd5e8d38df5a13d060d861630d9aa106bc880a91",
+        "text_head": "第二条 本预案适用于机场及其驻场单位发生的各类突发事件的应急处置工作。",
+        "estimated_tokens": 35
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第一章 总则 > 段落 4",
+        "page_number": null,
+        "heading_path": [
+          "第一章 总则"
+        ],
+        "text_sha256": "c4b479d39ddbccc00463a4514683f7106f3017cf863d2136e9ec6121cb084360",
+        "text_head": "第三条 应急处置工作坚持生命至上、安全第一、预防为主、快速反应的原则。",
+        "estimated_tokens": 35
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第二章 组织机构与职责",
+        "page_number": null,
+        "heading_path": [
+          "第二章 组织机构与职责"
+        ],
+        "text_sha256": "dad3cf935dc8dcbfe7ec5d6a5f9b677a62d1c690c940f51744999fff6a2dc43a",
+        "text_head": "第二章 组织机构与职责",
+        "estimated_tokens": 11
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第二章 组织机构与职责 > 段落 6",
+        "page_number": null,
+        "heading_path": [
+          "第二章 组织机构与职责"
+        ],
+        "text_sha256": "3989d414730df6dc334c8cc9b7a57ca8f9b7683cb68e7252664a713c7e6bb60e",
+        "text_head": "第四条 机场成立应急指挥部,总指挥由机场总经理担任,副总指挥由分管安全的副总经理担任。",
+        "estimated_tokens": 41
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第二章 组织机构与职责 > 段落 7",
+        "page_number": null,
+        "heading_path": [
+          "第二章 组织机构与职责"
+        ],
+        "text_sha256": "1240a88fa2d52d7a47c8cbfddb5f7186484093d38f7e3943aff4911836a96499",
+        "text_head": "第五条 机电保障部负责供电、供水、空调等关键设施的应急保障,应在接报后30分钟内完成初步核实并上",
+        "estimated_tokens": 47
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第二章 组织机构与职责 > 段落 8",
+        "page_number": null,
+        "heading_path": [
+          "第二章 组织机构与职责"
+        ],
+        "text_sha256": "29ab6f614e2bb363eea6a58d7e65eacd93a31754b0403ea85b21a2d21a0dad82",
+        "text_head": "第六条 安保部负责现场警戒与秩序维护,接到指令后应在10分钟内完成警戒区域设置。",
+        "estimated_tokens": 37
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第二章 组织机构与职责 > 段落 9",
+        "page_number": null,
+        "heading_path": [
+          "第二章 组织机构与职责"
+        ],
+        "text_sha256": "b76553309ecc6391325f4b6b62e08257245ee242af9d2cace510094beadad179",
+        "text_head": "第七条 医疗急救中心应保持24小时值班,急救人员应在接到通知后5分钟内出发。",
+        "estimated_tokens": 35
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第三章 信息报告流程",
+        "page_number": null,
+        "heading_path": [
+          "第三章 信息报告流程"
+        ],
+        "text_sha256": "d86366e49d83f59d20d64fd17547fd534a31ba579a33331b6caff36e93c6385a",
+        "text_head": "第三章 信息报告流程",
+        "estimated_tokens": 10
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第三章 信息报告流程 > 段落 11",
+        "page_number": null,
+        "heading_path": [
+          "第三章 信息报告流程"
+        ],
+        "text_sha256": "752d7877871c8e5faed7b1ab29a8aebadca243de6d6fb65f2aa39a1826d1ba50",
+        "text_head": "第八条 突发事件发生后,事发单位应在15分钟内向机场运行指挥中心电话报告,并在30分钟内提交书面",
+        "estimated_tokens": 46
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第三章 信息报告流程 > 段落 12",
+        "page_number": null,
+        "heading_path": [
+          "第三章 信息报告流程"
+        ],
+        "text_sha256": "f46156a011a0fc8017ce06534e0a464ddd878eeca7d1159071d63a163c1bdc6d",
+        "text_head": "第九条 运行指挥中心接报后应立即核实事件等级,重大事件须在10分钟内报告机场管理层。",
+        "estimated_tokens": 39
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第三章 信息报告流程 > 段落 13",
+        "page_number": null,
+        "heading_path": [
+          "第三章 信息报告流程"
+        ],
+        "text_sha256": "b52a38fb4f3540e3a518ae41b8b99525e9a03afd33cd089b0919731dd4063225",
+        "text_head": "第十条 信息报告内容包括事件时间、地点、性质、影响范围、已采取措施和需要支援事项。",
+        "estimated_tokens": 41
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第三章 信息报告流程 > 段落 14",
+        "page_number": null,
+        "heading_path": [
+          "第三章 信息报告流程"
+        ],
+        "text_sha256": "90a172c2eae36a6ab77eddf7f26f545e5345ebc80a2ffa948ee762f2e6926e11",
+        "text_head": "第十一条 任何单位和个人不得迟报、漏报、谎报或者瞒报突发事件信息。",
+        "estimated_tokens": 33
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第四章 应急响应分级",
+        "page_number": null,
+        "heading_path": [
+          "第四章 应急响应分级"
+        ],
+        "text_sha256": "31412e53d12c0b7b31345f258ad1a4fee30c7eb09dffbb20d6b0928333040054",
+        "text_head": "第四章 应急响应分级",
+        "estimated_tokens": 10
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第四章 应急响应分级 > 段落 16",
+        "page_number": null,
+        "heading_path": [
+          "第四章 应急响应分级"
+        ],
+        "text_sha256": "8383f6e4f53c844291979df1e151e25a1cf40c0d7877741a2f875642c24bff19",
+        "text_head": "第十二条 机场应急响应分为一级、二级、三级三个等级,一级为最高响应等级。",
+        "estimated_tokens": 35
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第四章 应急响应分级 > 段落 17",
+        "page_number": null,
+        "heading_path": [
+          "第四章 应急响应分级"
+        ],
+        "text_sha256": "04dea896028200731319b532876ec3b14849e4224bb711038890ad133b121683",
+        "text_head": "第十三条 三级响应由事发部门自行处置,二级响应由运行指挥中心协调处置,一级响应由应急指挥部统一指",
+        "estimated_tokens": 48
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第四章 应急响应分级 > 段落 18",
+        "page_number": null,
+        "heading_path": [
+          "第四章 应急响应分级"
+        ],
+        "text_sha256": "3d52eba25963a1f289aa546cc0b3db9ac5c3c3690ad27cc9990684f5ab00cfea",
+        "text_head": "第十四条 启动一级响应时,全体应急人员应在60分钟内到达指定集结地点。",
+        "estimated_tokens": 32
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第五章 后期处置",
+        "page_number": null,
+        "heading_path": [
+          "第五章 后期处置"
+        ],
+        "text_sha256": "30f9aa0463457c357f25984133da8bca2565ba4cebd142551333e18bbadca924",
+        "text_head": "第五章 后期处置",
+        "estimated_tokens": 8
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第五章 后期处置 > 段落 20",
+        "page_number": null,
+        "heading_path": [
+          "第五章 后期处置"
+        ],
+        "text_sha256": "e65fa2dde89ded0d39a352e53a5bed15e8e7206819f02cae81a8ae744b36ea87",
+        "text_head": "第十五条 应急处置结束后,事发单位应在24小时内提交处置总结报告。",
+        "estimated_tokens": 30
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第五章 后期处置 > 段落 21",
+        "page_number": null,
+        "heading_path": [
+          "第五章 后期处置"
+        ],
+        "text_sha256": "19a6c3d31de744b08bd4bef1b24c79a821282e87bbad267c435949ed09d5cf45",
+        "text_head": "第十六条 机场应在事件处置完成后一周内组织复盘评估,并更新应急预案相关内容。",
+        "estimated_tokens": 37
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第五章 后期处置 > 段落 22",
+        "page_number": null,
+        "heading_path": [
+          "第五章 后期处置"
+        ],
+        "text_sha256": "20652b3e13550d0bc3d5cddd1e27bb2ebd537a66daf16f4dd0bee6f0c7c128df",
+        "text_head": "第十七条 对应急处置中有功单位和个人给予表彰,对失职人员依照制度追责。",
+        "estimated_tokens": 34
+      },
+      {
+        "locator_kind": "docx_paragraph",
+        "locator_label": "第六章 值班安排",
+        "page_number": null,
+        "heading_path": [
+          "第六章 值班安排"
+        ],
+        "text_sha256": "8d5bdda3d730ce26232e05623a4cb92df03804bfbdc3e6ee6ba2dfefb03f73c2",
+        "text_head": "第六章 值班安排",
+        "estimated_tokens": 8
+      },
+      {
+        "locator_kind": "docx_table_row",
+        "locator_label": "表格 1 > 第 1 行",
+        "page_number": null,
+        "heading_path": [
+          "第六章 值班安排"
+        ],
+        "text_sha256": "bb97391dd89966c04973c31fe5431d4803195d9ce014af532ac594717c3aad9a",
+        "text_head": "班次 | 值班时间 | 责任部门",
+        "estimated_tokens": 12
+      },
+      {
+        "locator_kind": "docx_table_row",
+        "locator_label": "表格 1 > 第 2 行",
+        "page_number": null,
+        "heading_path": [
+          "第六章 值班安排"
+        ],
+        "text_sha256": "c2bf9afb9256822ec7919d67923812ceb40a49bcba69a4c58b6505bdcd14a850",
+        "text_head": "白班 | 08:00-20:00 | 运行指挥中心",
+        "estimated_tokens": 13
+      },
+      {
+        "locator_kind": "docx_table_row",
+        "locator_label": "表格 1 > 第 3 行",
+        "page_number": null,
+        "heading_path": [
+          "第六章 值班安排"
+        ],
+        "text_sha256": "fafa88c6a8b8acfdb476c252f25c76731fe2ce557b0af377c1d497ceed673b4a",
+        "text_head": "夜班 | 20:00-08:00 | 运行指挥中心",
+        "estimated_tokens": 13
+      },
+      {
+        "locator_kind": "docx_table_row",
+        "locator_label": "表格 1 > 第 4 行",
+        "page_number": null,
+        "heading_path": [
+          "第六章 值班安排"
+        ],
+        "text_sha256": "5c80af7abe0d9dec641236d2566a678c16a49edf3b7ed214f04ce77ffb243d5b",
+        "text_head": "备班 | 全天待命 | 机电保障部",
+        "estimated_tokens": 13
+      }
+    ]
+  }
+}

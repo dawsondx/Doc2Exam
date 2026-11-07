@@ -1,0 +1,23 @@
+{
+  "description": "429、超时、非法 JSON、结构失败",
+  "cases": [
+    {
+      "name": "rate_limited",
+      "http_status": 429,
+      "error_code": "AI_RATE_LIMITED",
+      "retry_after": "2"
+    },
+    {
+      "name": "timeout",
+      "error_code": "AI_TIMEOUT"
+    },
+    {
+      "name": "invalid_json",
+      "raw": "这不是 JSON{{{"
+    },
+    {
+      "name": "structure_failed",
+      "raw": "{\"points\": [{\"bad\": true}]}"
+    }
+  ]
+}

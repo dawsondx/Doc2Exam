@@ -1,0 +1,45 @@
+{
+  "description": "稳定成功输出(测试模式)",
+  "extraction": {
+    "points": [
+      {
+        "source_block_id": "ALLOWED_BLOCK_ID",
+        "content": "机电保障部应在接报后30分钟内完成初步核实并上报",
+        "bloom_level": "remember",
+        "category": "时限要求",
+        "eligible_types": [
+          "single_choice",
+          "true_false",
+          "fill_blank"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "single_choice": {
+      "stem": "根据规定,机电保障部接到应急事件报告后应在多长时间内上报?",
+      "options": [
+        "15分钟",
+        "30分钟",
+        "1小时",
+        "2小时"
+      ],
+      "answer_content": "30分钟",
+      "explanation": "规定时限为30分钟。15分钟、1小时和2小时均不符合该条规定。"
+    },
+    "true_false": {
+      "stem": "机电保障部接到应急事件报告后,应在30分钟内完成初步核实并上报。",
+      "answer": "正确",
+      "explanation": "该陈述与原文规定一致。"
+    },
+    "fill_blank": {
+      "stem": "机电保障部接到应急事件报告后,应在____内完成初步核实并上报。",
+      "answer": "30分钟",
+      "acceptable_answers": [
+        "三十分钟",
+        "半小时"
+      ],
+      "explanation": "原文规定的时限为30分钟。"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+frontend/dist/
+*.local
+
+# 运行时数据:目录结构保留,内容不入库
+data/app.db
+data/app.db-*
+data/uploads/*
+!data/uploads/.gitkeep
+data/exports/*
+!data/exports/.gitkeep
+data/temp/*
+!data/temp/.gitkeep
+data/logs/*
+!data/logs/.gitkeep
+
+# 构建产物与部署输出(公开站点构建目录,可重新生成)
+site-dist/
+
+# 测试产物
+backend/tests/.pytesttmp/
+test-results/
+playwright-report/
+.playwright-mcp/
+frontend/e2e-data/
+
+# 环境与编辑器
+.env
+.env.*
+!.env.demo
+!.env.public
+!.env.publicmock
+.DS_Store
+Thumbs.db
