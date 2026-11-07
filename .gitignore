@@ -43,3 +43,4 @@ frontend/e2e-data/
 .DS_Store
 Thumbs.db
 .qoder-credits/
+.workbuddy/
