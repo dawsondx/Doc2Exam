@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import { isDemoMode, isPublicMode } from "../demo/mode";
 import { STEPS, useWorkflow } from "../store";
+import { Icon } from "./ui/icons";
 
 function BrandMark() {
   return (
@@ -176,6 +177,45 @@ function SideNote({ mockMode }: { mockMode: boolean }) {
   );
 }
 
+function AuthorNote() {
+  return (
+    <section
+      aria-label="关于作者"
+      className="ui-surface flex flex-col gap-5 rounded-[var(--radius-lg)] p-5 sm:flex-row sm:items-center sm:justify-between sm:gap-8 sm:p-6"
+    >
+      <div className="flex min-w-0 items-start gap-4">
+        <span
+          aria-hidden="true"
+          className="flex size-[52px] shrink-0 items-center justify-center rounded-[var(--radius-xl)] bg-[var(--color-ink)] font-[family-name:var(--font-display)] text-[25px] font-semibold leading-none text-[var(--color-paper-2)]"
+        >
+          D
+        </span>
+        <div className="min-w-0">
+          <p className="eyebrow">本站作者 · 整理与维护</p>
+          <p className="mt-2 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+            <span className="font-[family-name:var(--font-display)] text-[21px] font-semibold tracking-[-0.02em] text-[var(--color-ink)]">
+              Dawson
+            </span>
+            <span className="text-[12.5px] text-[var(--color-muted)]">公众号「Dawson聊AI提效」主理人</span>
+          </p>
+          <p className="mt-2 max-w-[62ch] text-[12.5px] leading-[1.9] text-[var(--color-neutral)]">
+            专注帮传统行业职场人用 AI 干掉重复性工作。这个站点由我独立选题、整理、设计并长期维护。
+          </p>
+        </div>
+      </div>
+      <a
+        href="https://view.dawsondx.top/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex min-h-11 shrink-0 items-center justify-center gap-2 self-start rounded-[var(--radius-sm)] border border-[var(--color-rule-strong)] bg-[var(--color-paper-hi)] px-4 text-[13px] text-[var(--color-ink)] transition-[border-color,color] duration-[var(--dur-short)] ease-[var(--ease-paper)] hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] sm:self-auto"
+      >
+        我的个人网站
+        <Icon name="external" size={13} className="text-[var(--color-muted)]" />
+      </a>
+    </section>
+  );
+}
+
 export function AppShell({
   children,
   mockMode,
@@ -244,18 +284,21 @@ export function AppShell({
         </main>
       </div>
 
-      <footer className="mt-auto border-t border-[var(--color-rule-strong)] px-4 py-5 sm:px-6">
-        <div className="mx-auto flex w-full max-w-[1380px] flex-col gap-1.5 sm:flex-row sm:flex-wrap sm:items-baseline sm:justify-between sm:gap-2">
-          <p className="font-[family-name:var(--font-display)] text-[12px] tracking-[0.01em] text-[var(--color-neutral)]">
-            纸上学问，题上有据。
-          </p>
-          <p className="font-[family-name:var(--font-outlier)] text-[8px] tracking-[0.18em] text-[var(--color-muted)]">
-            {isDemoMode
-              ? "AI QUIZ ATELIER · VOL. 01 · DEMO"
-              : isPublicMode
-                ? "AI QUIZ ATELIER · VOL. 01 · BYOK"
-                : "AI QUIZ ATELIER · VOL. 01 · LOCAL"}
-          </p>
+      <footer className="mt-auto border-t border-[var(--color-rule-strong)] px-4 pb-5 pt-7 sm:px-6">
+        <div className="mx-auto w-full max-w-[1380px]">
+          <AuthorNote />
+          <div className="mt-6 flex flex-col gap-1.5 border-t border-dotted border-[var(--color-rule)] pt-4 sm:flex-row sm:flex-wrap sm:items-baseline sm:justify-between sm:gap-2">
+            <p className="font-[family-name:var(--font-display)] text-[12px] tracking-[0.01em] text-[var(--color-neutral)]">
+              纸上学问，题上有据。
+            </p>
+            <p className="font-[family-name:var(--font-outlier)] text-[8px] tracking-[0.18em] text-[var(--color-muted)]">
+              {isDemoMode
+                ? "AI QUIZ ATELIER · VOL. 01 · DEMO"
+                : isPublicMode
+                  ? "AI QUIZ ATELIER · VOL. 01 · BYOK"
+                  : "AI QUIZ ATELIER · VOL. 01 · LOCAL"}
+            </p>
+          </div>
         </div>
       </footer>
     </div>
